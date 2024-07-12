@@ -1,0 +1,52 @@
+.player-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    max-width: 300px;
+    margin: 16px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .player-image {
+    width: 50%;
+    height: 50%;
+    border-radius: 8px;
+  }
+  
+  .player-name {
+    font-size: 24px;
+    margin: 8px 0;
+  }
+  
+  .player-position {
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .player-stats p {
+    margin: 4px 0;
+    font-size: 16px;
+  }
+  
+
+
+  @media (max-width: 600px) {
+    .player-card {
+      padding: 12px;
+      max-width: 90%;
+    }
+  
+    .player-name {
+      font-size: 20px;
+    }
+  
+    .player-position {
+      font-size: 16px;
+    }
+  
+    .player-stats p {
+      font-size: 14px;
+    }
+  }
+  
