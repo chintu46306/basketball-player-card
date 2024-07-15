@@ -1,6 +1,7 @@
 .player-card {
-    background-color: rgb(221, 197, 156);
-    border: 1px solid #ccc;
+   /* background-color: rgb(221, 197, 156); */
+   background: linear-gradient(135deg, #d6a7d4,#4ea5ac);
+   border: 1px solid #ccc;
     border-radius: 8px;
     padding: 16px;
     max-width: 300px;
@@ -40,6 +41,7 @@
   
     .player-name {
       font-size: 20px;
+      color: #ffffff;
     }
   
     .player-position {
